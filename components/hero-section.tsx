@@ -7,7 +7,7 @@ import { trackClientEvent } from "@/lib/analytics";
 
 export function HeroSection() {
   return (
-    <section className="page-section" style={{ paddingTop: 28 }}>
+    <section className="page-section" style={{ paddingTop: 28, paddingBottom: 40 }}>
       <div
         className="page-shell glass-card"
         style={{

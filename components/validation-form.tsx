@@ -89,9 +89,11 @@ export function ValidationForm() {
     >
       <div style={{ display: "flex", justifyContent: "space-between", gap: 16, alignItems: "center" }}>
         <div>
-          <div style={{ color: "var(--accent-strong)", fontWeight: 800 }}>Validation survey</div>
+          <div style={{ color: "var(--accent-strong)", fontWeight: 800 }}>
+            Quick Validation Survey
+          </div>
           <p style={{ margin: "8px 0 0", color: "var(--muted)" }}>
-            Fast, conversational, and designed to surface signal.
+            Takes about a minute. Honest reactions are most helpful.
           </p>
         </div>
         <div style={{ color: "var(--muted)", fontWeight: 700 }}>Step {step} of 3</div>

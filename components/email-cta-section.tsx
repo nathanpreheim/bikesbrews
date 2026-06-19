@@ -37,7 +37,7 @@ export function EmailCtaSection() {
   }
 
   return (
-    <section id="early-access" className="page-section">
+    <section id="early-access" className="page-section" style={{ paddingTop: 24 }}>
       <div
         className="page-shell glass-card"
         style={{

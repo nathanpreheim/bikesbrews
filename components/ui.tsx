@@ -6,13 +6,13 @@ export function SectionIntro({
   title,
   copy
 }: {
-  eyebrow: string;
+  eyebrow?: string;
   title: string;
   copy: string;
 }) {
   return (
     <div>
-      <span className="section-eyebrow">{eyebrow}</span>
+      {eyebrow ? <span className="section-eyebrow">{eyebrow}</span> : null}
       <h2 className="section-title">{title}</h2>
       <p className="section-copy">{copy}</p>
     </div>
